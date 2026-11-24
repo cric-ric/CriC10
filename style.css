@@ -1,0 +1,19 @@
+:root{--bg:#f6fafb;--fg:#18303a;--mut:#5b7480;--ac:#0a7ea4;--card:#fff;--line:#d8e6eb}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1a1f;--fg:#e4eff3;--mut:#93aab4;--ac:#4cc3e8;--card:#15262d;--line:#24404a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 system-ui,-apple-system,sans-serif}
+main,header,footer{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+header{padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center}
+header a.logo{font-weight:700;letter-spacing:.02em;color:var(--fg);text-decoration:none}
+nav a{margin-left:1rem}
+a{color:var(--ac)}
+h1{font-size:2.2rem;line-height:1.2;margin:2.5rem 0 .5rem}
+h2{font-size:1.25rem;margin:2rem 0 .5rem}
+.lead{font-size:1.2rem;color:var(--mut);margin-top:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.4rem;margin:1.5rem 0}
+.card h2{margin-top:0}
+.badges{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0}
+.badge{border:1px solid var(--line);border-radius:10px;padding:.55rem 1rem;color:var(--mut);font-size:.95rem}
+.badge b{display:block;color:var(--fg);font-size:1rem}
+footer{padding:2rem 1.25rem 3rem;color:var(--mut);font-size:.9rem}
+ul{padding-left:1.2rem}
